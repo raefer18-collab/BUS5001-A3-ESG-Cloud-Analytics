@@ -1,0 +1,66 @@
+{
+  "name": "9c6b2826-82a8-51fb-a5d4-f559382213db",
+  "displayName": "Contact Preference",
+  "form": {
+    "parameters": [
+      {
+        "displayName": "contact_pref",
+        "entityType": "@contact_pref",
+        "required": true,
+        "fillBehavior": {
+          "initialPromptFulfillment": {
+            "messages": [
+              {
+                "text": {
+                  "text": [
+                    "Would you like updates on this report, or would you prefer to stay anonymous? Say 'keep me updated' or 'anonymous'. Your details are only used to follow up this report."
+                  ]
+                },
+                "languageCode": "en"
+              }
+            ]
+          },
+          "repromptEventHandlers": [
+            {
+              "name": "9e991381-fecf-5fdd-8325-ed1eea999668",
+              "event": "sys.no-match-1",
+              "triggerFulfillment": {
+                "messages": [
+                  {
+                    "text": {
+                      "text": [
+                        "Please say 'keep me updated' or 'anonymous'."
+                      ]
+                    },
+                    "languageCode": "en"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "transitionRoutes": [
+    {
+      "name": "76068476-64dc-50cc-83cb-a228aae9ddfb",
+      "condition": "$page.params.status = \"FINAL\" AND $session.params.contact_pref = \"updates requested\"",
+      "targetPage": "Collect Contact"
+    },
+    {
+      "name": "11d68c13-9455-5e9b-bb52-95e887aa21ab",
+      "condition": "$page.params.status = \"FINAL\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "email",
+            "value": "not provided (anonymous)"
+          }
+        ]
+      },
+      "targetPage": "Confirm Report"
+    }
+  ],
+  "eventHandlers": []
+}

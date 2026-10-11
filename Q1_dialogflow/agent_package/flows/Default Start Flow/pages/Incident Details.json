@@ -1,0 +1,147 @@
+{
+  "name": "6a8f7149-3b7d-543b-a74c-77b763c9d32a",
+  "displayName": "Incident Details",
+  "form": {
+    "parameters": [
+      {
+        "displayName": "incident_type",
+        "entityType": "@incident_type",
+        "required": true,
+        "fillBehavior": {
+          "initialPromptFulfillment": {
+            "messages": [
+              {
+                "text": {
+                  "text": [
+                    "What type of issue are you reporting? For example: water leak, energy waste, recycling contamination, hazardous spill, accessibility barrier, or other."
+                  ]
+                },
+                "languageCode": "en"
+              }
+            ]
+          },
+          "repromptEventHandlers": [
+            {
+              "name": "e3c34f82-1c4a-548c-a122-6d269d016167",
+              "event": "sys.no-match-1",
+              "triggerFulfillment": {
+                "messages": [
+                  {
+                    "text": {
+                      "text": [
+                        "Sorry, I didn't recognise that issue type. Please choose one: water leak, energy waste, recycling contamination, hazardous spill, accessibility barrier, or other."
+                      ]
+                    },
+                    "languageCode": "en"
+                  }
+                ]
+              }
+            },
+            {
+              "name": "426dd689-d0b6-587f-9005-42b90748a22f",
+              "event": "sys.no-match-2",
+              "triggerFulfillment": {
+                "messages": [
+                  {
+                    "text": {
+                      "text": [
+                        "Let's keep it simple - if you're unsure, just say 'other' and describe it to the team later."
+                      ]
+                    },
+                    "languageCode": "en"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "displayName": "location",
+        "entityType": "@sys.any",
+        "required": true,
+        "fillBehavior": {
+          "initialPromptFulfillment": {
+            "messages": [
+              {
+                "text": {
+                  "text": [
+                    "Where is the issue? Please include the building and the room or area, for example 'Building C, level 2 kitchen'."
+                  ]
+                },
+                "languageCode": "en"
+              }
+            ]
+          },
+          "repromptEventHandlers": []
+        }
+      },
+      {
+        "displayName": "risk_level",
+        "entityType": "@risk_level",
+        "required": true,
+        "fillBehavior": {
+          "initialPromptFulfillment": {
+            "messages": [
+              {
+                "text": {
+                  "text": [
+                    "Is anyone in danger, or is the issue causing ongoing damage? You can say 'immediate danger', 'ongoing damage' or 'no immediate risk'."
+                  ]
+                },
+                "languageCode": "en"
+              }
+            ]
+          },
+          "repromptEventHandlers": [
+            {
+              "name": "cf5a49c8-c7ee-570e-8cb2-776360806fc9",
+              "event": "sys.no-match-1",
+              "triggerFulfillment": {
+                "messages": [
+                  {
+                    "text": {
+                      "text": [
+                        "Sorry, please answer with 'immediate danger', 'ongoing damage' or 'no immediate risk'."
+                      ]
+                    },
+                    "languageCode": "en"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "transitionRoutes": [
+    {
+      "name": "6b97805a-c7b6-571d-b953-5c053b120a81",
+      "condition": "$page.params.status = \"FINAL\" AND $session.params.risk_level = \"immediate danger\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          },
+          {
+            "parameter": "assigned_team",
+            "value": "Health, Safety & Environment (HSE)"
+          },
+          {
+            "parameter": "priority",
+            "value": "CRITICAL"
+          }
+        ]
+      },
+      "targetPage": "Emergency Escalation"
+    },
+    {
+      "name": "5f79d2a1-3b01-5902-af8b-dd5de04cb108",
+      "condition": "$page.params.status = \"FINAL\"",
+      "targetPage": "Contact Preference"
+    }
+  ],
+  "eventHandlers": []
+}

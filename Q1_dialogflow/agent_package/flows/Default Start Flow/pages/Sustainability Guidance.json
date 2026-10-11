@@ -1,0 +1,116 @@
+{
+  "name": "8771a903-5864-50f4-bca0-68a5547235a9",
+  "displayName": "Sustainability Guidance",
+  "form": {
+    "parameters": [
+      {
+        "displayName": "guidance_topic",
+        "entityType": "@guidance_topic",
+        "required": true,
+        "fillBehavior": {
+          "initialPromptFulfillment": {
+            "messages": [
+              {
+                "text": {
+                  "text": [
+                    "Happy to help. Which topic: recycling, energy saving, water saving, or hazardous waste?"
+                  ]
+                },
+                "languageCode": "en"
+              }
+            ]
+          },
+          "repromptEventHandlers": [
+            {
+              "name": "68cc1917-dda9-57d7-b24e-2dd9dddd61ae",
+              "event": "sys.no-match-1",
+              "triggerFulfillment": {
+                "messages": [
+                  {
+                    "text": {
+                      "text": [
+                        "Please choose recycling, energy saving, water saving, or hazardous waste."
+                      ]
+                    },
+                    "languageCode": "en"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "transitionRoutes": [
+    {
+      "name": "4039c528-a9d4-5799-b2a5-8f53c2eb194e",
+      "condition": "$page.params.status = \"FINAL\" AND $session.params.guidance_topic = \"recycling\"",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Recycling tips: rinse containers, flatten cardboard, and keep soft plastics and coffee cups out of the yellow recycling bin - use the soft-plastics and cup collection points on each level."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      },
+      "targetPage": "Anything Else"
+    },
+    {
+      "name": "89776bb2-3108-5bf6-ab42-2f49b9f78ecf",
+      "condition": "$page.params.status = \"FINAL\" AND $session.params.guidance_topic = \"energy saving\"",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Energy tips: switch off lights and screens when you leave, keep air conditioning between 21 and 24 degrees, and report rooms heated or cooled overnight so Facilities can fix the schedule."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      },
+      "targetPage": "Anything Else"
+    },
+    {
+      "name": "5489e054-b399-5282-8782-a18859d2b5bb",
+      "condition": "$page.params.status = \"FINAL\" AND $session.params.guidance_topic = \"water saving\"",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Water tips: report dripping taps and running toilets straight away, and use the eco setting on kitchen dishwashers. A leaking tap can waste over 20,000 litres a year."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      },
+      "targetPage": "Anything Else"
+    },
+    {
+      "name": "0c61cfdb-7e60-50ed-b8d9-fe3e60eb6fa9",
+      "condition": "$page.params.status = \"FINAL\" AND $session.params.guidance_topic = \"hazardous waste\"",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Hazardous waste: never put batteries, e-waste, chemicals, globes or printer cartridges in general bins. Take them to the hazardous waste drop-off point at Building B reception."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      },
+      "targetPage": "Anything Else"
+    }
+  ],
+  "eventHandlers": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "e81d4b44-9804-56ec-ae03-75fa6bbfc0f3",
+  "displayName": "get.guidance",
+  "priority": 500000,
+  "description": "User wants guidance on recycling, energy, water or hazardous waste.",
+  "parameters": [
+    {
+      "id": "guidance_topic",
+      "entityType": "@guidance_topic"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "ce05fdf0-53a1-525b-b821-ad9d77f0db4e",
+  "displayName": "Report Submitted",
+  "entryFulfillment": {
+    "messages": [
+      {
+        "text": {
+          "text": [
+            "Thank you - your report has been submitted. Your reference is ESG-$session.params.report_ref."
+          ]
+        },
+        "languageCode": "en"
+      },
+      {
+        "text": {
+          "text": [
+            "It has been routed to the $session.params.assigned_team team with $session.params.priority priority. Updates: $session.params.email."
+          ]
+        },
+        "languageCode": "en"
+      }
+    ]
+  },
+  "transitionRoutes": [
+    {
+      "name": "ec0cde32-66c9-52d8-abbd-005f8727c9b9",
+      "condition": "true",
+      "targetPage": "Anything Else"
+    }
+  ],
+  "eventHandlers": []
+}

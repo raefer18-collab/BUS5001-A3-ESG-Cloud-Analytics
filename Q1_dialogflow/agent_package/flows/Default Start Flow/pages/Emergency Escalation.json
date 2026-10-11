@@ -1,0 +1,40 @@
+{
+  "name": "2d7e0e41-ff00-5f04-9bcc-a381be71b539",
+  "displayName": "Emergency Escalation",
+  "entryFulfillment": {
+    "messages": [
+      {
+        "text": {
+          "text": [
+            "This sounds urgent. If anyone is injured or in immediate danger, leave the area and call Campus Security on 1800 555 000 (or 000 for emergencies) now."
+          ]
+        },
+        "languageCode": "en"
+      },
+      {
+        "text": {
+          "text": [
+            "I have flagged your $session.params.incident_type report at $session.params.location as CRITICAL and alerted the on-call $session.params.assigned_team team."
+          ]
+        },
+        "languageCode": "en"
+      },
+      {
+        "text": {
+          "text": [
+            "Your reference is ESG-$session.params.report_ref. A team member will follow up within 15 minutes."
+          ]
+        },
+        "languageCode": "en"
+      }
+    ]
+  },
+  "transitionRoutes": [
+    {
+      "name": "b63a7344-14f7-5d51-9b89-83076efe5a05",
+      "condition": "true",
+      "targetPage": "End Session"
+    }
+  ],
+  "eventHandlers": []
+}

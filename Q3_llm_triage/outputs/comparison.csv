@@ -1,0 +1,25 @@
+message_id,approach,issue_category,issue_category_correct,urgency,urgency_correct,recommended_team,recommended_team_correct,issues_found,human_review
+M1,Gemini (revised prompt),WATER,True,HIGH,True,Facilities Maintenance,True,1.0,True
+M1,Rule-based,WATER,True,HIGH,True,Facilities Maintenance,True,,
+M1,HF zero-shot,WATER,True,HIGH,True,Facilities Maintenance,True,,
+M2,Gemini (revised prompt),WASTE_RECYCLING,True,MEDIUM,True,Waste & Recycling Services,True,1.0,False
+M2,Rule-based,WASTE_RECYCLING,True,MEDIUM,True,Waste & Recycling Services,True,,
+M2,HF zero-shot,WASTE_RECYCLING,True,HIGH,False,Waste & Recycling Services,True,,
+M3,Gemini (revised prompt),ENERGY,True,MEDIUM,True,Energy & Sustainability Office,True,1.0,False
+M3,Rule-based,ENERGY,True,HIGH,False,Energy & Sustainability Office,True,,
+M3,HF zero-shot,ENERGY,True,HIGH,False,Energy & Sustainability Office,True,,
+M4,Gemini (revised prompt),PROCUREMENT_SUPPLIER,True,MEDIUM,True,Sustainable Procurement,True,1.0,False
+M4,Rule-based,PROCUREMENT_SUPPLIER,True,MEDIUM,True,Sustainable Procurement,True,,
+M4,HF zero-shot,PROCUREMENT_SUPPLIER,True,HIGH,False,Sustainable Procurement,True,,
+M5,Gemini (revised prompt),ACCESSIBILITY,True,HIGH,True,Accessibility & Inclusion Team,True,1.0,True
+M5,Rule-based,ACCESSIBILITY,True,HIGH,True,Accessibility & Inclusion Team,True,,
+M5,HF zero-shot,ACCESSIBILITY,True,HIGH,True,Accessibility & Inclusion Team,True,,
+M6,Gemini (revised prompt),HAZARDOUS_MATERIALS,True,CRITICAL,True,"Health, Safety & Environment (HSE)",True,1.0,True
+M6,Rule-based,HAZARDOUS_MATERIALS,True,CRITICAL,True,"Health, Safety & Environment (HSE)",True,,
+M6,HF zero-shot,HAZARDOUS_MATERIALS,True,CRITICAL,True,"Health, Safety & Environment (HSE)",True,,
+M7,Gemini (revised prompt),FACILITIES_GENERAL,True,LOW,True,Facilities Maintenance,True,1.0,False
+M7,Rule-based,ENERGY,False,MEDIUM,False,Energy & Sustainability Office,False,,
+M7,HF zero-shot,ENERGY,False,LOW,True,Energy & Sustainability Office,False,,
+M8,Gemini (revised prompt),GOVERNANCE_CONDUCT,True,HIGH,True,People & Culture / Integrity (confidential),True,1.0,True
+M8,Rule-based,GOVERNANCE_CONDUCT,True,HIGH,True,People & Culture / Integrity (confidential),True,,
+M8,HF zero-shot,GOVERNANCE_CONDUCT,True,MEDIUM,False,People & Culture / Integrity (confidential),True,,

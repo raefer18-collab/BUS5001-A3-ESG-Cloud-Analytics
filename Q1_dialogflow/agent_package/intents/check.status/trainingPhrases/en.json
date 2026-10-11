@@ -1,0 +1,92 @@
+{
+  "trainingPhrases": [
+    {
+      "id": "ffba37ec-b958-5a0a-80e3-3b7137e9b122",
+      "parts": [
+        {
+          "text": "check my report"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "0c73a7ba-9763-5d5e-9fb5-6c8ea3e8a73a",
+      "parts": [
+        {
+          "text": "what's the status of my report"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "3b3940f4-86d7-5783-bbf0-a7d3e2755677",
+      "parts": [
+        {
+          "text": "has my issue been fixed"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "d476f5b6-9d1a-5958-9216-2c1d0879308d",
+      "parts": [
+        {
+          "text": "check report "
+        },
+        {
+          "text": "ESG-4F2A9C",
+          "parameterId": "ref_number"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "26a3b7b9-bfe4-581d-86f7-2ac4bf03fc8a",
+      "parts": [
+        {
+          "text": "status of "
+        },
+        {
+          "text": "ESG-7B31D0",
+          "parameterId": "ref_number"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "eddb11b5-0fc7-56a8-8131-8bece34754e3",
+      "parts": [
+        {
+          "text": "any update on my incident"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "c25e9302-d255-5d60-be7a-83f31c3593d2",
+      "parts": [
+        {
+          "text": "follow up on a report I made"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "298b417c-b14a-5675-a0bd-4f52c29a80e7",
+      "parts": [
+        {
+          "text": "track my report"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }
+  ]
+}

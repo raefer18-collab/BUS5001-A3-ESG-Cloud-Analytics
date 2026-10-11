@@ -1,0 +1,12 @@
+{
+  "name": "5e5c4dcf-ea8d-5be2-aa0c-510178719850",
+  "displayName": "report.incident",
+  "priority": 500000,
+  "description": "User wants to report an environmental, facilities or accessibility incident.",
+  "parameters": [
+    {
+      "id": "incident_type",
+      "entityType": "@incident_type"
+    }
+  ]
+}

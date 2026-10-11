@@ -1,0 +1,397 @@
+{
+  "zero_shot_model": "MoritzLaurer/deberta-v3-base-zeroshot-v2.0",
+  "results": {
+    "M1": {
+      "rule_based": {
+        "issue_category": "WATER",
+        "urgency": "HIGH",
+        "recommended_team": "Facilities Maintenance"
+      },
+      "zero_shot": {
+        "issue_category": "WATER",
+        "category_score": 0.995,
+        "category_ranking": [
+          [
+            "WATER",
+            0.995
+          ],
+          [
+            "ACCESSIBILITY",
+            0.002
+          ],
+          [
+            "HAZARDOUS_MATERIALS",
+            0.001
+          ],
+          [
+            "FACILITIES_GENERAL",
+            0.001
+          ],
+          [
+            "GOVERNANCE_CONDUCT",
+            0.001
+          ],
+          [
+            "ENERGY",
+            0.0
+          ],
+          [
+            "PROCUREMENT_SUPPLIER",
+            0.0
+          ],
+          [
+            "WASTE_RECYCLING",
+            0.0
+          ]
+        ],
+        "urgency": "HIGH",
+        "urgency_score": 0.627,
+        "recommended_team": "Facilities Maintenance",
+        "latency_s": 21.24
+      }
+    },
+    "M2": {
+      "rule_based": {
+        "issue_category": "WASTE_RECYCLING",
+        "urgency": "MEDIUM",
+        "recommended_team": "Waste & Recycling Services"
+      },
+      "zero_shot": {
+        "issue_category": "WASTE_RECYCLING",
+        "category_score": 0.964,
+        "category_ranking": [
+          [
+            "WASTE_RECYCLING",
+            0.964
+          ],
+          [
+            "HAZARDOUS_MATERIALS",
+            0.03
+          ],
+          [
+            "PROCUREMENT_SUPPLIER",
+            0.002
+          ],
+          [
+            "ACCESSIBILITY",
+            0.002
+          ],
+          [
+            "WATER",
+            0.001
+          ],
+          [
+            "FACILITIES_GENERAL",
+            0.0
+          ],
+          [
+            "GOVERNANCE_CONDUCT",
+            0.0
+          ],
+          [
+            "ENERGY",
+            0.0
+          ]
+        ],
+        "urgency": "HIGH",
+        "urgency_score": 0.462,
+        "recommended_team": "Waste & Recycling Services",
+        "latency_s": 21.01
+      }
+    },
+    "M3": {
+      "rule_based": {
+        "issue_category": "ENERGY",
+        "urgency": "HIGH",
+        "recommended_team": "Energy & Sustainability Office"
+      },
+      "zero_shot": {
+        "issue_category": "ENERGY",
+        "category_score": 0.87,
+        "category_ranking": [
+          [
+            "ENERGY",
+            0.87
+          ],
+          [
+            "ACCESSIBILITY",
+            0.035
+          ],
+          [
+            "FACILITIES_GENERAL",
+            0.033
+          ],
+          [
+            "GOVERNANCE_CONDUCT",
+            0.022
+          ],
+          [
+            "HAZARDOUS_MATERIALS",
+            0.014
+          ],
+          [
+            "PROCUREMENT_SUPPLIER",
+            0.011
+          ],
+          [
+            "WATER",
+            0.008
+          ],
+          [
+            "WASTE_RECYCLING",
+            0.007
+          ]
+        ],
+        "urgency": "HIGH",
+        "urgency_score": 0.549,
+        "recommended_team": "Energy & Sustainability Office",
+        "latency_s": 19.5
+      }
+    },
+    "M4": {
+      "rule_based": {
+        "issue_category": "PROCUREMENT_SUPPLIER",
+        "urgency": "MEDIUM",
+        "recommended_team": "Sustainable Procurement"
+      },
+      "zero_shot": {
+        "issue_category": "PROCUREMENT_SUPPLIER",
+        "category_score": 0.972,
+        "category_ranking": [
+          [
+            "PROCUREMENT_SUPPLIER",
+            0.972
+          ],
+          [
+            "HAZARDOUS_MATERIALS",
+            0.012
+          ],
+          [
+            "WASTE_RECYCLING",
+            0.005
+          ],
+          [
+            "ENERGY",
+            0.004
+          ],
+          [
+            "WATER",
+            0.003
+          ],
+          [
+            "GOVERNANCE_CONDUCT",
+            0.002
+          ],
+          [
+            "ACCESSIBILITY",
+            0.001
+          ],
+          [
+            "FACILITIES_GENERAL",
+            0.0
+          ]
+        ],
+        "urgency": "HIGH",
+        "urgency_score": 0.328,
+        "recommended_team": "Sustainable Procurement",
+        "latency_s": 21.14
+      }
+    },
+    "M5": {
+      "rule_based": {
+        "issue_category": "ACCESSIBILITY",
+        "urgency": "HIGH",
+        "recommended_team": "Accessibility & Inclusion Team"
+      },
+      "zero_shot": {
+        "issue_category": "ACCESSIBILITY",
+        "category_score": 0.981,
+        "category_ranking": [
+          [
+            "ACCESSIBILITY",
+            0.981
+          ],
+          [
+            "HAZARDOUS_MATERIALS",
+            0.005
+          ],
+          [
+            "WATER",
+            0.003
+          ],
+          [
+            "GOVERNANCE_CONDUCT",
+            0.003
+          ],
+          [
+            "PROCUREMENT_SUPPLIER",
+            0.002
+          ],
+          [
+            "FACILITIES_GENERAL",
+            0.002
+          ],
+          [
+            "WASTE_RECYCLING",
+            0.002
+          ],
+          [
+            "ENERGY",
+            0.002
+          ]
+        ],
+        "urgency": "HIGH",
+        "urgency_score": 0.541,
+        "recommended_team": "Accessibility & Inclusion Team",
+        "latency_s": 20.52
+      }
+    },
+    "M6": {
+      "rule_based": {
+        "issue_category": "HAZARDOUS_MATERIALS",
+        "urgency": "CRITICAL",
+        "recommended_team": "Health, Safety & Environment (HSE)"
+      },
+      "zero_shot": {
+        "issue_category": "HAZARDOUS_MATERIALS",
+        "category_score": 0.978,
+        "category_ranking": [
+          [
+            "HAZARDOUS_MATERIALS",
+            0.978
+          ],
+          [
+            "GOVERNANCE_CONDUCT",
+            0.006
+          ],
+          [
+            "ACCESSIBILITY",
+            0.004
+          ],
+          [
+            "PROCUREMENT_SUPPLIER",
+            0.004
+          ],
+          [
+            "WASTE_RECYCLING",
+            0.003
+          ],
+          [
+            "WATER",
+            0.002
+          ],
+          [
+            "ENERGY",
+            0.002
+          ],
+          [
+            "FACILITIES_GENERAL",
+            0.001
+          ]
+        ],
+        "urgency": "CRITICAL",
+        "urgency_score": 0.831,
+        "recommended_team": "Health, Safety & Environment (HSE)",
+        "latency_s": 29.3
+      }
+    },
+    "M7": {
+      "rule_based": {
+        "issue_category": "ENERGY",
+        "urgency": "MEDIUM",
+        "recommended_team": "Energy & Sustainability Office"
+      },
+      "zero_shot": {
+        "issue_category": "ENERGY",
+        "category_score": 0.691,
+        "category_ranking": [
+          [
+            "ENERGY",
+            0.691
+          ],
+          [
+            "FACILITIES_GENERAL",
+            0.222
+          ],
+          [
+            "PROCUREMENT_SUPPLIER",
+            0.043
+          ],
+          [
+            "HAZARDOUS_MATERIALS",
+            0.011
+          ],
+          [
+            "ACCESSIBILITY",
+            0.011
+          ],
+          [
+            "WATER",
+            0.008
+          ],
+          [
+            "WASTE_RECYCLING",
+            0.007
+          ],
+          [
+            "GOVERNANCE_CONDUCT",
+            0.007
+          ]
+        ],
+        "urgency": "LOW",
+        "urgency_score": 0.895,
+        "recommended_team": "Energy & Sustainability Office",
+        "latency_s": 27.43
+      }
+    },
+    "M8": {
+      "rule_based": {
+        "issue_category": "GOVERNANCE_CONDUCT",
+        "urgency": "HIGH",
+        "recommended_team": "People & Culture / Integrity (confidential)"
+      },
+      "zero_shot": {
+        "issue_category": "GOVERNANCE_CONDUCT",
+        "category_score": 0.981,
+        "category_ranking": [
+          [
+            "GOVERNANCE_CONDUCT",
+            0.981
+          ],
+          [
+            "ACCESSIBILITY",
+            0.014
+          ],
+          [
+            "PROCUREMENT_SUPPLIER",
+            0.001
+          ],
+          [
+            "ENERGY",
+            0.001
+          ],
+          [
+            "HAZARDOUS_MATERIALS",
+            0.001
+          ],
+          [
+            "WATER",
+            0.001
+          ],
+          [
+            "WASTE_RECYCLING",
+            0.001
+          ],
+          [
+            "FACILITIES_GENERAL",
+            0.001
+          ]
+        ],
+        "urgency": "MEDIUM",
+        "urgency_score": 0.401,
+        "recommended_team": "People & Culture / Integrity (confidential)",
+        "latency_s": 26.51
+      }
+    }
+  }
+}

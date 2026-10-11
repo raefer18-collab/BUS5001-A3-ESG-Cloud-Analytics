@@ -1,0 +1,24 @@
+{
+  "name": "8faef0d7-7a90-5f25-b790-9772a9593ff2",
+  "displayName": "End Conversation",
+  "entryFulfillment": {
+    "messages": [
+      {
+        "text": {
+          "text": [
+            "Thanks for helping make our workplace more sustainable. Goodbye!"
+          ]
+        },
+        "languageCode": "en"
+      }
+    ]
+  },
+  "transitionRoutes": [
+    {
+      "name": "49513255-a4b0-5b57-9e0c-e2e63072c583",
+      "condition": "true",
+      "targetPage": "End Session"
+    }
+  ],
+  "eventHandlers": []
+}

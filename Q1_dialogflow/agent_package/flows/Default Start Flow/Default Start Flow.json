@@ -1,0 +1,148 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "EcoAssist - ESG sustainability incident reporting assistant.",
+  "transitionRoutes": [
+    {
+      "name": "01e83c8f-37f4-542a-80cd-4b81abb669de",
+      "intent": "Default Welcome Intent",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Hi, I'm EcoAssist, the Sustainability Support Assistant. I can help you:\n1. Report a sustainability or facilities issue\n2. Get sustainability guidance\n3. Check the status of a report\n4. Speak to a person\nPrivacy note: I only ask for what is needed to fix the issue. You do not need to give your name and you can stay anonymous. What would you like to do?"
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      }
+    },
+    {
+      "name": "e7f90f83-3124-57c4-a4dc-e612e52bf9f4",
+      "intent": "report.incident",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Thanks for helping us run a more sustainable workplace. Let's log this issue."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      },
+      "targetPage": "Incident Details"
+    },
+    {
+      "name": "e55bff15-7a66-5586-9b0c-8b91b10dae70",
+      "intent": "get.guidance",
+      "targetPage": "Sustainability Guidance"
+    },
+    {
+      "name": "8a96b186-e0ef-5b1c-a5eb-fb2de5cb9d85",
+      "intent": "check.status",
+      "targetPage": "Check Report Status"
+    },
+    {
+      "name": "13b62312-7b13-5007-9369-e0174586088e",
+      "intent": "escalate.human",
+      "targetPage": "Human Handover"
+    },
+    {
+      "name": "982cb169-7f44-5143-a7d5-e57b5fdcaddd",
+      "intent": "end.conversation",
+      "targetPage": "End Conversation"
+    }
+  ],
+  "eventHandlers": [
+    {
+      "name": "64f154c8-07ce-5a89-8004-d35ce2a0512e",
+      "event": "sys.no-match-1",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Sorry, I didn't quite understand. You can say: report an issue, sustainability guidance, check a report, or speak to a person."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      }
+    },
+    {
+      "name": "dcae3fdc-c9a3-5dc0-8756-1c7dbde8478d",
+      "event": "sys.no-match-2",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "I'm still having trouble understanding. Try a short phrase like 'report a water leak', or say 'speak to a person' and I'll connect you with the ESG Service Desk."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      }
+    },
+    {
+      "name": "b8dd14ae-fb84-54d4-87ba-ec4f795d56d9",
+      "event": "sys.no-match-3",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "I don't want to keep you waiting, so I'm handing you over to a person."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      },
+      "targetPage": "Human Handover"
+    },
+    {
+      "name": "afaee940-3b34-5294-bacd-c3f290743330",
+      "event": "sys.no-input-default",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Are you still there? Tell me what you'd like to do, or say 'speak to a person'."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      }
+    },
+    {
+      "name": "16983206-6c66-5ea1-ac46-73dc37be9c40",
+      "event": "sys.no-match-default",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Sorry, I didn't catch that. Could you say it another way?"
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      }
+    }
+  ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.3,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  }
+}

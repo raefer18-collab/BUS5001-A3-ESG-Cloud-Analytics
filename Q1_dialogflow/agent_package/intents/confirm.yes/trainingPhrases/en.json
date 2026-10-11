@@ -1,0 +1,114 @@
+{
+  "trainingPhrases": [
+    {
+      "id": "cbbd1ad4-32a4-57cb-ad3b-52af5a7438f4",
+      "parts": [
+        {
+          "text": "yes"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "4829316a-041e-550e-bba2-56f36af673f5",
+      "parts": [
+        {
+          "text": "yeah"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "49c8334f-a438-5bad-ac4d-51044c86efbd",
+      "parts": [
+        {
+          "text": "yep"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "d539d9b6-d1a1-56cf-aed8-5bebdd159f41",
+      "parts": [
+        {
+          "text": "correct"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "5ba20f66-27af-5cba-8593-75e7d6b04915",
+      "parts": [
+        {
+          "text": "that's right"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "59f8b72e-8a56-53a9-a6f6-0e8ea4d9d2e7",
+      "parts": [
+        {
+          "text": "submit it"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "e86b3587-535c-5b18-91aa-f930756cb5b2",
+      "parts": [
+        {
+          "text": "go ahead"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "f7b68769-c7f2-5db0-8aa3-4bfec3916dcf",
+      "parts": [
+        {
+          "text": "sounds good"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "49453674-08c3-5ba8-a398-169a7cc53703",
+      "parts": [
+        {
+          "text": "confirm"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "ba490014-ec6f-5ab1-94f0-db043b62fbe0",
+      "parts": [
+        {
+          "text": "yes please submit"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "f30de056-1b74-52a2-af2b-121fc0c07e4b",
+      "parts": [
+        {
+          "text": "looks good"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }
+  ]
+}

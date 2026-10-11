@@ -1,0 +1,54 @@
+{
+  "name": "a162455a-68e2-5400-8ccb-e5450cc095bd",
+  "displayName": "Collect Contact",
+  "form": {
+    "parameters": [
+      {
+        "displayName": "email",
+        "entityType": "@sys.email",
+        "required": true,
+        "fillBehavior": {
+          "initialPromptFulfillment": {
+            "messages": [
+              {
+                "text": {
+                  "text": [
+                    "What email address should we send updates to?"
+                  ]
+                },
+                "languageCode": "en"
+              }
+            ]
+          },
+          "repromptEventHandlers": [
+            {
+              "name": "c1937e24-e57c-5db7-93c6-b1c77b1b3bf2",
+              "event": "sys.no-match-1",
+              "triggerFulfillment": {
+                "messages": [
+                  {
+                    "text": {
+                      "text": [
+                        "That doesn't look like an email address. Please type it like name@example.com, or say 'speak to a person'."
+                      ]
+                    },
+                    "languageCode": "en"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "redact": true
+      }
+    ]
+  },
+  "transitionRoutes": [
+    {
+      "name": "535e7c71-c20e-568a-a6bd-fbbb0d61a5d2",
+      "condition": "$page.params.status = \"FINAL\"",
+      "targetPage": "Confirm Report"
+    }
+  ],
+  "eventHandlers": []
+}

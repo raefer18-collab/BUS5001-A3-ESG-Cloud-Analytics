@@ -1,0 +1,12 @@
+{
+  "name": "0abbecda-94cf-5761-9d7a-da3ddce7cc2c",
+  "displayName": "check.status",
+  "priority": 500000,
+  "description": "User wants to check the status of an existing report.",
+  "parameters": [
+    {
+      "id": "ref_number",
+      "entityType": "@report_ref"
+    }
+  ]
+}

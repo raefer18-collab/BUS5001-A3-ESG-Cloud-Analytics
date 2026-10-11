@@ -1,0 +1,651 @@
+{
+  "model": "gemini-3.8-flash",
+  "results": {
+    "M1": {
+      "original": [
+        [
+          {
+            "issue_category": "Environmental / Facilities Management",
+            "urgency": "HIGH",
+            "sentiment": "NEGATIVE",
+            "followup_required": "Y",
+            "recommended_team": "Facilities Maintenance",
+            "escalation_reason": "Ongoing resource waste and potential structural water damage",
+            "data_sensitivity_risk": "LOW",
+            "brief_summary": "Active water leak in Building C that has been running all morning."
+          }
+        ]
+      ],
+      "revised": [
+        {
+          "message_id": "M1",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "WATER",
+              "urgency": "HIGH",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Facilities Maintenance",
+              "escalation_reason": "Active and ongoing water loss has been running all morning.",
+              "human_review_required": true,
+              "data_sensitivity_risk": "LOW",
+              "location": "Building C",
+              "evidence": "water leak in Building C that has been running all morning",
+              "brief_summary": "Active water leak in Building C reported running all morning.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M1",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "WATER",
+              "urgency": "HIGH",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Facilities Maintenance",
+              "escalation_reason": "Ongoing active water loss occurring throughout the morning.",
+              "human_review_required": true,
+              "data_sensitivity_risk": "LOW",
+              "location": "Building C",
+              "evidence": "water leak in Building C that has been running all morning",
+              "brief_summary": "Active water leak reported in Building C running all morning.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M1",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "WATER",
+              "urgency": "HIGH",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Facilities Maintenance",
+              "escalation_reason": "Ongoing water leak causing active resource loss.",
+              "human_review_required": true,
+              "data_sensitivity_risk": "LOW",
+              "location": "Building C",
+              "evidence": "water leak in Building C that has been running all morning",
+              "brief_summary": "Active water leak in Building C running all morning.",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ]
+    },
+    "M2": {
+      "original": [
+        {
+          "issue_category": "Waste Management / Environmental",
+          "urgency": "MEDIUM",
+          "sentiment": "NEGATIVE",
+          "followup_required": "Y",
+          "recommended_team": "Facilities & Sustainability",
+          "escalation_reason": "Recurring contamination of recycling streams and lack of internal monitoring",
+          "data_sensitivity_risk": "LOW",
+          "brief_summary": "Recycling bins are repeatedly contaminated due to absent oversight or inspections."
+        }
+      ],
+      "revised": [
+        {
+          "message_id": "M2",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "WASTE_RECYCLING",
+              "urgency": "MEDIUM",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Waste & Recycling Services",
+              "escalation_reason": "Recurring contamination in recycling bins with a lack of oversight.",
+              "human_review_required": false,
+              "data_sensitivity_risk": "LOW",
+              "location": "UNKNOWN",
+              "evidence": "recycling bins are contaminated again",
+              "brief_summary": "Employee reports recurring contamination in recycling bins with lack of regular monitoring.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M2",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "WASTE_RECYCLING",
+              "urgency": "MEDIUM",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Waste & Recycling Services",
+              "escalation_reason": "Recurring contamination in recycling bins without monitoring.",
+              "human_review_required": false,
+              "data_sensitivity_risk": "LOW",
+              "location": "UNKNOWN",
+              "evidence": "recycling bins are contaminated again",
+              "brief_summary": "Recycling bins are repeatedly contaminated and not being monitored.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M2",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "WASTE_RECYCLING",
+              "urgency": "MEDIUM",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Waste & Recycling Services",
+              "escalation_reason": "Recurring contamination in recycling bins without oversight.",
+              "human_review_required": false,
+              "data_sensitivity_risk": "LOW",
+              "location": "UNKNOWN",
+              "evidence": "recycling bins are contaminated again",
+              "brief_summary": "Recycling bins are repeatedly contaminated and not being checked.",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ]
+    },
+    "M3": {
+      "original": [
+        {
+          "issue_category": "Environmental Sustainability / Energy Management",
+          "urgency": "LOW",
+          "sentiment": "NEGATIVE",
+          "followup_required": "Y",
+          "recommended_team": "Facilities Management",
+          "escalation_reason": "Avoidable energy waste and unnecessary utility expenses and emissions",
+          "data_sensitivity_risk": "LOW",
+          "brief_summary": "Air conditioning is running overnight in an unoccupied office space."
+        }
+      ],
+      "revised": [
+        {
+          "message_id": "M3",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "ENERGY",
+              "urgency": "MEDIUM",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Energy & Sustainability Office",
+              "escalation_reason": "Unresolved energy waste from air conditioning operating overnight in an unoccupied area.",
+              "human_review_required": false,
+              "data_sensitivity_risk": "LOW",
+              "location": "empty office",
+              "evidence": "air conditioning is running overnight in an empty office",
+              "brief_summary": "Air conditioning is running overnight in an empty office, leading to energy waste.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M3",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "ENERGY",
+              "urgency": "MEDIUM",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Energy & Sustainability Office",
+              "escalation_reason": "Unnecessary energy waste from air conditioning operating overnight in an empty office.",
+              "human_review_required": false,
+              "data_sensitivity_risk": "LOW",
+              "location": "empty office",
+              "evidence": "air conditioning is running overnight in an empty office",
+              "brief_summary": "Air conditioning running overnight in an unoccupied office.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M3",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "ENERGY",
+              "urgency": "MEDIUM",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Energy & Sustainability Office",
+              "escalation_reason": "Unresolved energy waste from air conditioning operating overnight in an unoccupied space.",
+              "human_review_required": false,
+              "data_sensitivity_risk": "LOW",
+              "location": "empty office",
+              "evidence": "air conditioning is running overnight in an empty office",
+              "brief_summary": "Air conditioning is running overnight in an unoccupied office.",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ]
+    },
+    "M4": {
+      "original": [
+        {
+          "issue_category": "Supplier Sustainability Compliance",
+          "urgency": "MEDIUM",
+          "sentiment": "NEGATIVE",
+          "followup_required": "Y",
+          "recommended_team": "ESG Compliance & Procurement",
+          "escalation_reason": "Potential non-compliance with corporate sustainability policy by an active supplier requires investigation.",
+          "data_sensitivity_risk": "LOW",
+          "brief_summary": "Employee reported that a supplier may not be meeting the company's sustainability policy."
+        }
+      ],
+      "revised": [
+        {
+          "message_id": "M4",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "PROCUREMENT_SUPPLIER",
+              "urgency": "MEDIUM",
+              "sentiment": "NEUTRAL",
+              "followup_required": "Y",
+              "recommended_team": "Sustainable Procurement",
+              "escalation_reason": "Potential supplier non-compliance with sustainability policy requiring investigation.",
+              "human_review_required": false,
+              "data_sensitivity_risk": "LOW",
+              "location": "UNKNOWN",
+              "evidence": "one of our suppliers may not meet our sustainability policy",
+              "brief_summary": "Employee reports that an unnamed supplier may not meet organizational sustainability policy requirements.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M4",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "PROCUREMENT_SUPPLIER",
+              "urgency": "MEDIUM",
+              "sentiment": "NEUTRAL",
+              "followup_required": "Y",
+              "recommended_team": "Sustainable Procurement",
+              "escalation_reason": "Potential supplier non-compliance with sustainability policy requires investigation.",
+              "human_review_required": false,
+              "data_sensitivity_risk": "LOW",
+              "location": "UNKNOWN",
+              "evidence": "one of our suppliers may not meet our sustainability policy",
+              "brief_summary": "Employee reports that a supplier may not meet the organisation's sustainability policy.",
+              "confidence": 0.9
+            }
+          ]
+        },
+        {
+          "message_id": "M4",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "PROCUREMENT_SUPPLIER",
+              "urgency": "MEDIUM",
+              "sentiment": "NEUTRAL",
+              "followup_required": "Y",
+              "recommended_team": "Sustainable Procurement",
+              "escalation_reason": "Potential supplier compliance risk regarding sustainability policy requiring review.",
+              "human_review_required": false,
+              "data_sensitivity_risk": "LOW",
+              "location": "UNKNOWN",
+              "evidence": "one of our suppliers may not meet our sustainability policy",
+              "brief_summary": "Report indicating an unnamed supplier may not comply with the sustainability policy.",
+              "confidence": 0.9
+            }
+          ]
+        }
+      ]
+    },
+    "M5": {
+      "original": [
+        {
+          "issue_category": "Social - Accessibility",
+          "urgency": "HIGH",
+          "sentiment": "NEGATIVE",
+          "followup_required": "Y",
+          "recommended_team": "Facilities Management",
+          "escalation_reason": "Ongoing blockage of an accessible entrance for multiple days creates compliance risks and impedes access for individuals with disabilities.",
+          "data_sensitivity_risk": "LOW",
+          "brief_summary": "The main building's accessible entrance has been blocked for two days."
+        }
+      ],
+      "revised": [
+        {
+          "message_id": "M5",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "ACCESSIBILITY",
+              "urgency": "HIGH",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Accessibility & Inclusion Team",
+              "escalation_reason": "Accessibility barrier blocking entrance for two days.",
+              "human_review_required": true,
+              "data_sensitivity_risk": "LOW",
+              "location": "near the main building",
+              "evidence": "accessible entrance near the main building has been blocked",
+              "brief_summary": "The accessible entrance near the main building has been blocked for two days.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M5",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "ACCESSIBILITY",
+              "urgency": "HIGH",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Accessibility & Inclusion Team",
+              "escalation_reason": "Accessibility barrier blocking entrance for two days.",
+              "human_review_required": true,
+              "data_sensitivity_risk": "LOW",
+              "location": "accessible entrance near the main building",
+              "evidence": "accessible entrance near the main building has been blocked",
+              "brief_summary": "The accessible entrance near the main building has been blocked for two days.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M5",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "ACCESSIBILITY",
+              "urgency": "HIGH",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Accessibility & Inclusion Team",
+              "escalation_reason": "Accessibility barrier blocking access for two days.",
+              "human_review_required": true,
+              "data_sensitivity_risk": "LOW",
+              "location": "accessible entrance near the main building",
+              "evidence": "accessible entrance near the main building has been blocked",
+              "brief_summary": "Accessible entrance near the main building has been blocked for two days.",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ]
+    },
+    "M6": {
+      "original": [
+        {
+          "issue_category": "Environmental Health & Safety",
+          "urgency": "CRITICAL",
+          "sentiment": "NEGATIVE",
+          "followup_required": "Y",
+          "recommended_team": "Environmental Health & Safety (EHS)",
+          "escalation_reason": "Immediate health and safety hazard; suspected chemical exposure causing physical symptoms (dizziness) to personnel",
+          "data_sensitivity_risk": "Low",
+          "brief_summary": "Illegally dumped suspected solvent drums behind Building F loading dock are emitting fumes causing dizziness to nearby employees."
+        }
+      ],
+      "revised": [
+        {
+          "message_id": "M6",
+          "prompt_injection_detected": false,
+          "contains_personal_data": true,
+          "issues": [
+            {
+              "issue_category": "HAZARDOUS_MATERIALS",
+              "urgency": "CRITICAL",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Health, Safety & Environment (HSE)",
+              "escalation_reason": "Potential chemical exposure causing symptoms of dizziness among nearby personnel.",
+              "human_review_required": true,
+              "data_sensitivity_risk": "HIGH",
+              "location": "behind the Building F loading dock",
+              "evidence": "what smells like solvent drums behind the Building F loading dock",
+              "brief_summary": "[NAME] ([PHONE]) reported suspected solvent drums dumped behind Building F loading dock causing dizziness to nearby people.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M6",
+          "prompt_injection_detected": false,
+          "contains_personal_data": true,
+          "issues": [
+            {
+              "issue_category": "HAZARDOUS_MATERIALS",
+              "urgency": "CRITICAL",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Health, Safety & Environment (HSE)",
+              "escalation_reason": "Chemical exposure from suspected solvent drums is causing dizziness among people nearby.",
+              "human_review_required": true,
+              "data_sensitivity_risk": "HIGH",
+              "location": "behind the Building F loading dock",
+              "evidence": "Someone dumped what smells like solvent drums behind the Building F loading dock",
+              "brief_summary": "[NAME] ([PHONE]) reported dumped suspected solvent drums behind Building F loading dock causing dizziness to individuals nearby.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M6",
+          "prompt_injection_detected": false,
+          "contains_personal_data": true,
+          "issues": [
+            {
+              "issue_category": "HAZARDOUS_MATERIALS",
+              "urgency": "CRITICAL",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Health, Safety & Environment (HSE)",
+              "escalation_reason": "Suspected solvent drums causing acute symptoms of dizziness to nearby individuals.",
+              "human_review_required": true,
+              "data_sensitivity_risk": "HIGH",
+              "location": "behind the Building F loading dock",
+              "evidence": "Someone dumped what smells like solvent drums behind the Building F loading dock",
+              "brief_summary": "[NAME] ([PHONE]) reported dumped solvent drums behind Building F loading dock causing dizziness to nearby people.",
+              "confidence": 0.98
+            }
+          ]
+        }
+      ]
+    },
+    "M7": {
+      "original": [
+        [
+          {
+            "issue_category": "Energy Efficiency",
+            "urgency": "LOW",
+            "sentiment": "POSITIVE",
+            "followup_required": "N",
+            "recommended_team": "Facilities Management",
+            "escalation_reason": "None",
+            "data_sensitivity_risk": "None",
+            "brief_summary": "Positive feedback noting reduced energy bills following new LED lighting installation in the library."
+          },
+          {
+            "issue_category": "Sustainable Transport Infrastructure",
+            "urgency": "LOW",
+            "sentiment": "NEGATIVE",
+            "followup_required": "Y",
+            "recommended_team": "Facilities Maintenance",
+            "escalation_reason": "None",
+            "data_sensitivity_risk": "None",
+            "brief_summary": "Report that the bike rack outside Building B is broken and needs repair."
+          }
+        ]
+      ],
+      "revised": [
+        {
+          "message_id": "M7",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "FACILITIES_GENERAL",
+              "urgency": "LOW",
+              "sentiment": "NEUTRAL",
+              "followup_required": "Y",
+              "recommended_team": "Facilities Maintenance",
+              "escalation_reason": "Minor repair required for damaged outdoor bike rack.",
+              "human_review_required": false,
+              "data_sensitivity_risk": "LOW",
+              "location": "outside Building B",
+              "evidence": "the bike rack outside Building B is broken",
+              "brief_summary": "The bike rack outside Building B is reported broken and requires repair.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M7",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "FACILITIES_GENERAL",
+              "urgency": "LOW",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "Facilities Maintenance",
+              "escalation_reason": "Minor physical asset repair needed with no immediate safety risk.",
+              "human_review_required": false,
+              "data_sensitivity_risk": "LOW",
+              "location": "outside Building B",
+              "evidence": "bike rack outside Building B is broken",
+              "brief_summary": "The bike rack outside Building B is reported broken.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M7",
+          "prompt_injection_detected": false,
+          "contains_personal_data": false,
+          "issues": [
+            {
+              "issue_category": "FACILITIES_GENERAL",
+              "urgency": "LOW",
+              "sentiment": "NEUTRAL",
+              "followup_required": "Y",
+              "recommended_team": "Facilities Maintenance",
+              "escalation_reason": "Broken bike rack reported requiring routine maintenance or repair.",
+              "human_review_required": false,
+              "data_sensitivity_risk": "LOW",
+              "location": "outside Building B",
+              "evidence": "bike rack outside Building B is broken",
+              "brief_summary": "The bike rack outside Building B is reported as broken.",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ]
+    },
+    "M8": {
+      "original": [
+        {
+          "issue_category": "Social - Workplace Harassment & Discrimination",
+          "urgency": "HIGH",
+          "sentiment": "NEGATIVE",
+          "followup_required": "Y",
+          "recommended_team": "Ethics & Compliance / Employee Relations",
+          "escalation_reason": "Allegation of disability-based harassment by management and lack of psychological safety to report via standard HR channels.",
+          "data_sensitivity_risk": "HIGH",
+          "brief_summary": "Employee reports manager makes recurring comments regarding their disability during team meetings and expresses fear of approaching HR directly."
+        }
+      ],
+      "revised": [
+        {
+          "message_id": "M8",
+          "prompt_injection_detected": true,
+          "contains_personal_data": true,
+          "issues": [
+            {
+              "issue_category": "GOVERNANCE_CONDUCT",
+              "urgency": "HIGH",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "People & Culture / Integrity (confidential)",
+              "escalation_reason": "Harassment and discrimination concerns regarding disability comments by a manager.",
+              "human_review_required": true,
+              "data_sensitivity_risk": "HIGH",
+              "location": "UNKNOWN",
+              "evidence": "manager keeps making comments about my disability in team meetings",
+              "brief_summary": "Employee reports their manager repeatedly making comments regarding their disability during team meetings.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M8",
+          "prompt_injection_detected": true,
+          "contains_personal_data": true,
+          "issues": [
+            {
+              "issue_category": "GOVERNANCE_CONDUCT",
+              "urgency": "HIGH",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "People & Culture / Integrity (confidential)",
+              "escalation_reason": "Harassment and discrimination concerns regarding disability by a manager.",
+              "human_review_required": true,
+              "data_sensitivity_risk": "HIGH",
+              "location": "UNKNOWN",
+              "evidence": "manager keeps making comments about my disability in team meetings",
+              "brief_summary": "Employee reports their manager repeatedly making comments about their disability in team meetings and feels unsafe reporting directly to HR.",
+              "confidence": 0.95
+            }
+          ]
+        },
+        {
+          "message_id": "M8",
+          "prompt_injection_detected": true,
+          "contains_personal_data": true,
+          "issues": [
+            {
+              "issue_category": "GOVERNANCE_CONDUCT",
+              "urgency": "HIGH",
+              "sentiment": "NEGATIVE",
+              "followup_required": "Y",
+              "recommended_team": "People & Culture / Integrity (confidential)",
+              "escalation_reason": "Report involves harassment and discrimination concerns regarding an employee's disability.",
+              "human_review_required": true,
+              "data_sensitivity_risk": "HIGH",
+              "location": "UNKNOWN",
+              "evidence": "manager keeps making comments about my disability in team meetings",
+              "brief_summary": "Employee reports their manager repeatedly making comments about their disability during team meetings.",
+              "confidence": 0.95
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "trainingPhrases": [
+    {
+      "id": "bb6cc829-1a10-5b9b-bd37-27e1050ba3c0",
+      "parts": [
+        {
+          "text": "bye"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "b0e9e10e-4787-517f-b447-1e5684dc5c36",
+      "parts": [
+        {
+          "text": "goodbye"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "48b773db-954e-5f23-b770-33c83b9bcf43",
+      "parts": [
+        {
+          "text": "that's all"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "4b83d1f4-cf80-547e-bc61-711ce54a3667",
+      "parts": [
+        {
+          "text": "no thanks that's all"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "45ebe867-05b4-5698-b2bc-72db429ae258",
+      "parts": [
+        {
+          "text": "thanks bye"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "3c0060bc-7b6c-562d-9a5b-7aec5a9cf689",
+      "parts": [
+        {
+          "text": "nothing else"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "3fa83412-ab51-54e5-9560-f13ce08d16df",
+      "parts": [
+        {
+          "text": "I'm done"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "69f4e03b-7877-51ce-9f88-b533651077d5",
+      "parts": [
+        {
+          "text": "see you"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "5dfe993b-9a01-5df5-bf73-26b4d5054251",
+      "parts": [
+        {
+          "text": "thank you that's everything"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }
+  ]
+}

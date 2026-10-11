@@ -1,0 +1,94 @@
+{
+  "trainingPhrases": [
+    {
+      "id": "3d93dbba-6a5e-551c-8488-87fcd39ffe2d",
+      "parts": [
+        {
+          "text": "hi"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "bf66a032-0738-5a45-983e-6d3709dc9126",
+      "parts": [
+        {
+          "text": "hello"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "fa9d44eb-b2ff-5717-a667-7c3ad6a0fa71",
+      "parts": [
+        {
+          "text": "hey"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "08524e9d-cf35-55cd-8a27-e36ccecb843e",
+      "parts": [
+        {
+          "text": "good morning"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "89148fd1-466b-5c66-8fdc-1c7af76bf7a3",
+      "parts": [
+        {
+          "text": "start"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "ea0abdac-2351-53ea-b903-c65a26fb9e8f",
+      "parts": [
+        {
+          "text": "hi EcoAssist"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "d0be4d23-69e3-5506-95bd-f2a8ac6a8c21",
+      "parts": [
+        {
+          "text": "hello there"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "caaa4ac1-71c0-51c2-8ce2-9150f73a6af4",
+      "parts": [
+        {
+          "text": "I need some help"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "4093f165-b191-5089-9d34-97c001ef4ba2",
+      "parts": [
+        {
+          "text": "what can you do"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }
+  ]
+}

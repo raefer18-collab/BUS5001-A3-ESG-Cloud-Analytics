@@ -1,0 +1,35 @@
+{
+  "name": "70d31336-89ea-5d96-a419-8d795e3465fe",
+  "displayName": "Anything Else",
+  "entryFulfillment": {
+    "messages": [
+      {
+        "text": {
+          "text": [
+            "Is there anything else I can help with? You can report another issue, ask for guidance, check a report, or say goodbye."
+          ]
+        },
+        "languageCode": "en"
+      }
+    ]
+  },
+  "transitionRoutes": [],
+  "eventHandlers": [
+    {
+      "name": "5b048162-7cb4-5797-9c20-e58bd5a10532",
+      "event": "sys.no-match-default",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "You can say 'report an issue', 'guidance', 'check a report', 'speak to a person' or 'bye'."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      }
+    }
+  ]
+}

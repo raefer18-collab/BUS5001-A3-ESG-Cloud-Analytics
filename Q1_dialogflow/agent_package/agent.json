@@ -1,0 +1,14 @@
+{
+  "displayName": "EcoAssist ESG Incident Reporter",
+  "defaultLanguageCode": "en",
+  "timeZone": "Australia/Sydney",
+  "description": "ESG Sustainability Support Assistant - incident reporting prototype (BUS5001 A3).",
+  "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
+  "advancedSettings": {
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
+    }
+  }
+}

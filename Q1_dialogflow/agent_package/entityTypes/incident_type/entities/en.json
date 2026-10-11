@@ -1,0 +1,95 @@
+{
+  "entities": [
+    {
+      "value": "water leak",
+      "synonyms": [
+        "water leak",
+        "leak",
+        "leaking",
+        "burst pipe",
+        "dripping tap",
+        "running tap",
+        "flooding",
+        "water running",
+        "toilet running",
+        "pipe leak"
+      ],
+      "languageCode": "en"
+    },
+    {
+      "value": "energy waste",
+      "synonyms": [
+        "energy waste",
+        "lights left on",
+        "air conditioning running",
+        "aircon on overnight",
+        "heating left on",
+        "computers left on",
+        "power waste",
+        "air conditioning",
+        "lights on",
+        "energy"
+      ],
+      "languageCode": "en"
+    },
+    {
+      "value": "waste contamination",
+      "synonyms": [
+        "waste contamination",
+        "recycling contamination",
+        "contaminated recycling",
+        "bins contaminated",
+        "wrong bin",
+        "overflowing bins",
+        "rubbish",
+        "waste",
+        "recycling",
+        "illegal dumping",
+        "littering"
+      ],
+      "languageCode": "en"
+    },
+    {
+      "value": "hazardous spill",
+      "synonyms": [
+        "hazardous spill",
+        "chemical spill",
+        "oil spill",
+        "hazardous waste",
+        "battery leak",
+        "fuel leak",
+        "asbestos",
+        "unsafe disposal",
+        "spill",
+        "toxic"
+      ],
+      "languageCode": "en"
+    },
+    {
+      "value": "accessibility barrier",
+      "synonyms": [
+        "accessibility barrier",
+        "blocked ramp",
+        "blocked accessible entrance",
+        "lift not working",
+        "broken elevator",
+        "accessible toilet",
+        "ramp blocked",
+        "wheelchair access",
+        "accessible entrance blocked",
+        "accessibility"
+      ],
+      "languageCode": "en"
+    },
+    {
+      "value": "other",
+      "synonyms": [
+        "other",
+        "something else",
+        "not sure",
+        "different issue"
+      ],
+      "languageCode": "en"
+    }
+  ]
+}

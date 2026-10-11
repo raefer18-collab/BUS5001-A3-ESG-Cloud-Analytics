@@ -1,0 +1,114 @@
+{
+  "trainingPhrases": [
+    {
+      "id": "e33f6b5a-8c90-5fe0-9c3f-3e3713a98cda",
+      "parts": [
+        {
+          "text": "speak to a person"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "b3f4d0cb-08f7-586a-b50d-bcd462e53fcc",
+      "parts": [
+        {
+          "text": "talk to a human"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "456e21a4-0b51-5da5-a68b-ccdb80f4232a",
+      "parts": [
+        {
+          "text": "I want to talk to someone"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "c442c11b-76d9-5e28-a479-c950014f53f8",
+      "parts": [
+        {
+          "text": "connect me to an agent"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "c089c34e-de40-571e-a3cc-9425335eeeee",
+      "parts": [
+        {
+          "text": "this is urgent I need a person"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "31bb1bf2-b121-54ab-9084-57f03e5e91c6",
+      "parts": [
+        {
+          "text": "can I speak to facilities"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "4e99f8d3-1260-52fb-bab3-ad29f114d635",
+      "parts": [
+        {
+          "text": "get me a real person"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "96c2b77b-b553-54b1-a8a6-8e5c19715184",
+      "parts": [
+        {
+          "text": "I have a sensitive issue"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "33debb72-0cac-5823-a9c6-7b16ebb34b8a",
+      "parts": [
+        {
+          "text": "I want to make a confidential complaint"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "5ee50ac3-c671-5d72-8eb2-174dea1eead1",
+      "parts": [
+        {
+          "text": "human please"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "842d7453-ecd5-5ccd-afd6-a33450df2620",
+      "parts": [
+        {
+          "text": "operator"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }
+  ]
+}

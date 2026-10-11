@@ -1,0 +1,177 @@
+{
+  "trainingPhrases": [
+    {
+      "id": "ce1b9ebf-4605-5cea-81d0-3099c7fa4b12",
+      "parts": [
+        {
+          "text": "How do I "
+        },
+        {
+          "text": "recycle",
+          "parameterId": "guidance_topic"
+        },
+        {
+          "text": " properly?"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "3eb06755-27fe-5c22-a3a6-854062380141",
+      "parts": [
+        {
+          "text": "Which bin do I use for "
+        },
+        {
+          "text": "coffee cups",
+          "parameterId": "guidance_topic"
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "7feba310-0367-5843-8f6d-a969f82fffed",
+      "parts": [
+        {
+          "text": "How can I "
+        },
+        {
+          "text": "save energy",
+          "parameterId": "guidance_topic"
+        },
+        {
+          "text": " in the office?"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "ecae438c-a5e4-582a-9199-8c8166fe0194",
+      "parts": [
+        {
+          "text": "Where do I dispose of "
+        },
+        {
+          "text": "batteries",
+          "parameterId": "guidance_topic"
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "317278a4-86e8-5c07-9a68-d81d402c5c0a",
+      "parts": [
+        {
+          "text": "Tips to "
+        },
+        {
+          "text": "reduce water",
+          "parameterId": "guidance_topic"
+        },
+        {
+          "text": " use"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "4929060e-cf0f-5598-8a1a-2744d59f2987",
+      "parts": [
+        {
+          "text": "what do I do with "
+        },
+        {
+          "text": "e-waste",
+          "parameterId": "guidance_topic"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "1683a67d-5d2a-50b1-8c63-82cfed03681b",
+      "parts": [
+        {
+          "text": "I need sustainability advice"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "56554dc9-5131-5180-b991-b56a0c9261d7",
+      "parts": [
+        {
+          "text": "give me sustainability tips"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "a82aed8e-fd95-50af-9b6c-e19be01f0fc0",
+      "parts": [
+        {
+          "text": "how can I be more sustainable at work"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "85e57d13-0488-5be6-8486-ccad11be2890",
+      "parts": [
+        {
+          "text": "sustainability guidance"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "62371f11-52f1-5ba5-971f-a168adbd3dd0",
+      "parts": [
+        {
+          "text": "what are the "
+        },
+        {
+          "text": "recycling",
+          "parameterId": "guidance_topic"
+        },
+        {
+          "text": " rules"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "904aae5f-e935-5ac7-9bf8-f7a37a8287c4",
+      "parts": [
+        {
+          "text": "how do I get rid of "
+        },
+        {
+          "text": "chemicals",
+          "parameterId": "guidance_topic"
+        },
+        {
+          "text": " safely"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }
+  ]
+}

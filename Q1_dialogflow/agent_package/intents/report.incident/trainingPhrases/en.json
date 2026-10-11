@@ -1,0 +1,287 @@
+{
+  "trainingPhrases": [
+    {
+      "id": "a4d078e1-6294-5be9-82ff-412263e65177",
+      "parts": [
+        {
+          "text": "I want to report an issue"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "745fc7b0-73d2-5ba4-8c28-4234e15c602f",
+      "parts": [
+        {
+          "text": "I need to report a sustainability problem"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "9c435886-8ce8-5a46-9836-3903f437361c",
+      "parts": [
+        {
+          "text": "report a facilities issue"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "6f039c63-52b0-513c-8c44-5fdefedd3613",
+      "parts": [
+        {
+          "text": "There is a "
+        },
+        {
+          "text": "water leak",
+          "parameterId": "incident_type"
+        },
+        {
+          "text": " in Building C"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "7687bd4a-79d4-5cac-baad-b99bffd0a246",
+      "parts": [
+        {
+          "text": "There's a "
+        },
+        {
+          "text": "water leak",
+          "parameterId": "incident_type"
+        },
+        {
+          "text": " that has been running all morning"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "ac6af815-e5b9-5c30-b20d-0e979a547923",
+      "parts": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "air conditioning",
+          "parameterId": "incident_type"
+        },
+        {
+          "text": " is running overnight in an empty office"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "dbe9fae4-e04a-5802-96ba-303cddc40f9f",
+      "parts": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "lights are left on",
+          "parameterId": "incident_type"
+        },
+        {
+          "text": " every night in the library"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "753630fb-bb70-5103-b20b-555c8d522728",
+      "parts": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "recycling bins are contaminated",
+          "parameterId": "incident_type"
+        },
+        {
+          "text": " again"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "7b36831d-014c-5040-909d-03e591f3540a",
+      "parts": [
+        {
+          "text": "Someone has put rubbish in the "
+        },
+        {
+          "text": "wrong bin",
+          "parameterId": "incident_type"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "17a1fe42-34b6-51f7-a102-29e52aea487b",
+      "parts": [
+        {
+          "text": "I found a "
+        },
+        {
+          "text": "chemical spill",
+          "parameterId": "incident_type"
+        },
+        {
+          "text": " in the lab corridor"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "ffa2d5d6-5c57-549d-bfcd-317ab349828c",
+      "parts": [
+        {
+          "text": "There is "
+        },
+        {
+          "text": "hazardous waste",
+          "parameterId": "incident_type"
+        },
+        {
+          "text": " dumped behind the car park"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "27c261c5-769b-5222-9bba-9e59c036cf73",
+      "parts": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "accessible entrance is blocked",
+          "parameterId": "incident_type"
+        },
+        {
+          "text": " near the main building"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "1cd3e303-731e-5e44-ab1c-e157c272fb9c",
+      "parts": [
+        {
+          "text": "The "
+        },
+        {
+          "text": "lift is not working",
+          "parameterId": "incident_type"
+        },
+        {
+          "text": " in Building A"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "09b8cd3d-9e8e-562d-a685-08cc1b395889",
+      "parts": [
+        {
+          "text": "I want to log a "
+        },
+        {
+          "text": "leak",
+          "parameterId": "incident_type"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "0efc9cca-0664-529a-994c-51872d8c07f8",
+      "parts": [
+        {
+          "text": "report "
+        },
+        {
+          "text": "energy waste",
+          "parameterId": "incident_type"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "6f12d669-9b07-58b1-b3a3-ef6959e81367",
+      "parts": [
+        {
+          "text": "report a "
+        },
+        {
+          "text": "spill",
+          "parameterId": "incident_type"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "448475c7-491e-554d-9507-5af1419b9099",
+      "parts": [
+        {
+          "text": "I'd like to report an "
+        },
+        {
+          "text": "accessibility barrier",
+          "parameterId": "incident_type"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "b772451c-f51a-5b0a-a1ac-c4f8f6615e5e",
+      "parts": [
+        {
+          "text": "there's a problem I need to report"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "b04d7a1d-07f8-55bc-adcb-dfc1fa8d2a5c",
+      "parts": [
+        {
+          "text": "something is wrong in my building"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "05f459b8-785a-56ea-8fcb-024ca61560b0",
+      "parts": [
+        {
+          "text": "log a new incident"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }
+  ]
+}

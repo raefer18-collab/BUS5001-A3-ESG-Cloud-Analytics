@@ -1,0 +1,94 @@
+{
+  "trainingPhrases": [
+    {
+      "id": "b0d50435-8237-5f51-b3e6-3f34b8ee75ae",
+      "parts": [
+        {
+          "text": "no"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "7f89cc7f-7ab2-586b-a40d-4f28dc20f4b2",
+      "parts": [
+        {
+          "text": "nope"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "e57436e8-93b1-5b70-a046-115b69d53ff5",
+      "parts": [
+        {
+          "text": "that's wrong"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "3cbda5c2-0556-5429-85c4-2a4c66e273d2",
+      "parts": [
+        {
+          "text": "not right"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "80f9f9e7-456c-594f-9025-79a21855a3c1",
+      "parts": [
+        {
+          "text": "change it"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "5e675923-4228-582c-8339-7477bb8233f1",
+      "parts": [
+        {
+          "text": "start again"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "a8197af9-64be-56ef-893c-f3f2b0612e70",
+      "parts": [
+        {
+          "text": "incorrect"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "fe2f80c7-236e-5895-a3a8-161a243d6a8e",
+      "parts": [
+        {
+          "text": "no that's not correct"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    },
+    {
+      "id": "59051ddc-ef3c-574f-b457-589dd5d22e6c",
+      "parts": [
+        {
+          "text": "cancel"
+        }
+      ],
+      "repeatCount": 1,
+      "languageCode": "en"
+    }
+  ]
+}

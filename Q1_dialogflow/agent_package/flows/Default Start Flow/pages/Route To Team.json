@@ -1,0 +1,280 @@
+{
+  "name": "fbbdd3ca-960c-5f7b-b2a2-b6c9e829d4ad",
+  "displayName": "Route To Team",
+  "transitionRoutes": [
+    {
+      "name": "8ce44654-1f9f-5220-af76-153c20b241cf",
+      "condition": "$session.params.incident_type = \"water leak\" AND $session.params.risk_level = \"ongoing damage\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "Facilities Maintenance (Plumbing)"
+          },
+          {
+            "parameter": "priority",
+            "value": "HIGH"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    },
+    {
+      "name": "40db2284-194b-5933-9970-bfbc46622820",
+      "condition": "$session.params.incident_type = \"water leak\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "Facilities Maintenance (Plumbing)"
+          },
+          {
+            "parameter": "priority",
+            "value": "HIGH"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    },
+    {
+      "name": "46d383a4-ec44-519e-9fb3-b2688abc4198",
+      "condition": "$session.params.incident_type = \"energy waste\" AND $session.params.risk_level = \"ongoing damage\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "Energy & Sustainability Office"
+          },
+          {
+            "parameter": "priority",
+            "value": "HIGH"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    },
+    {
+      "name": "1dbee7d4-cfb1-5cf4-805d-f473213258d0",
+      "condition": "$session.params.incident_type = \"energy waste\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "Energy & Sustainability Office"
+          },
+          {
+            "parameter": "priority",
+            "value": "MEDIUM"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    },
+    {
+      "name": "a6ea15f9-896f-53f6-b872-b1fa277a41ac",
+      "condition": "$session.params.incident_type = \"waste contamination\" AND $session.params.risk_level = \"ongoing damage\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "Waste & Recycling Services"
+          },
+          {
+            "parameter": "priority",
+            "value": "HIGH"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    },
+    {
+      "name": "efffc19a-dceb-5618-9e66-240090769e47",
+      "condition": "$session.params.incident_type = \"waste contamination\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "Waste & Recycling Services"
+          },
+          {
+            "parameter": "priority",
+            "value": "MEDIUM"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    },
+    {
+      "name": "4009cb15-19c0-5748-a8bc-de1fbd455c6c",
+      "condition": "$session.params.incident_type = \"hazardous spill\" AND $session.params.risk_level = \"ongoing damage\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "Health, Safety & Environment (HSE)"
+          },
+          {
+            "parameter": "priority",
+            "value": "HIGH"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    },
+    {
+      "name": "c349de1f-305b-5b5e-b7e3-6d133f511faf",
+      "condition": "$session.params.incident_type = \"hazardous spill\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "Health, Safety & Environment (HSE)"
+          },
+          {
+            "parameter": "priority",
+            "value": "HIGH"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    },
+    {
+      "name": "2dca5e8d-8f74-52ee-ab4f-cf4a51e8cc33",
+      "condition": "$session.params.incident_type = \"accessibility barrier\" AND $session.params.risk_level = \"ongoing damage\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "Accessibility & Inclusion Team"
+          },
+          {
+            "parameter": "priority",
+            "value": "HIGH"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    },
+    {
+      "name": "9dc8675f-257b-5783-9450-5c7a38f91543",
+      "condition": "$session.params.incident_type = \"accessibility barrier\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "Accessibility & Inclusion Team"
+          },
+          {
+            "parameter": "priority",
+            "value": "HIGH"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    },
+    {
+      "name": "4d7d848b-2ee9-598f-8ac0-7a91b1b59fd8",
+      "condition": "$session.params.incident_type = \"other\" AND $session.params.risk_level = \"ongoing damage\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "ESG Service Desk"
+          },
+          {
+            "parameter": "priority",
+            "value": "HIGH"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    },
+    {
+      "name": "19455c91-b5fd-549e-8545-0b774af44d73",
+      "condition": "$session.params.incident_type = \"other\"",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "ESG Service Desk"
+          },
+          {
+            "parameter": "priority",
+            "value": "MEDIUM"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    },
+    {
+      "name": "7ebafeaf-911c-5285-b430-7b6b1f46c6db",
+      "condition": "true",
+      "triggerFulfillment": {
+        "setParameterActions": [
+          {
+            "parameter": "assigned_team",
+            "value": "ESG Service Desk"
+          },
+          {
+            "parameter": "priority",
+            "value": "MEDIUM"
+          },
+          {
+            "parameter": "report_ref",
+            "value": "$sys.func.UPPER($sys.func.MID($sys.func.UUID(), 1, 6))"
+          }
+        ]
+      },
+      "targetPage": "Report Submitted"
+    }
+  ],
+  "eventHandlers": []
+}

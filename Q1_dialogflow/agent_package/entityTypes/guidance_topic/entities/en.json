@@ -1,0 +1,53 @@
+{
+  "entities": [
+    {
+      "value": "recycling",
+      "synonyms": [
+        "recycling",
+        "recycle",
+        "which bin",
+        "soft plastics",
+        "cardboard",
+        "coffee cups",
+        "bins"
+      ],
+      "languageCode": "en"
+    },
+    {
+      "value": "energy saving",
+      "synonyms": [
+        "energy saving",
+        "save energy",
+        "reduce energy",
+        "electricity",
+        "turn off lights",
+        "air conditioning settings",
+        "power"
+      ],
+      "languageCode": "en"
+    },
+    {
+      "value": "water saving",
+      "synonyms": [
+        "water saving",
+        "save water",
+        "reduce water",
+        "water use"
+      ],
+      "languageCode": "en"
+    },
+    {
+      "value": "hazardous waste",
+      "synonyms": [
+        "hazardous waste",
+        "batteries",
+        "e-waste",
+        "chemicals",
+        "printer cartridges",
+        "light globes",
+        "electronic waste"
+      ],
+      "languageCode": "en"
+    }
+  ]
+}

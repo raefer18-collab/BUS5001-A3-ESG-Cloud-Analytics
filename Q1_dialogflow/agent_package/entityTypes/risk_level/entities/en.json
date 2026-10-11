@@ -1,0 +1,51 @@
+{
+  "entities": [
+    {
+      "value": "immediate danger",
+      "synonyms": [
+        "immediate danger",
+        "danger",
+        "dangerous",
+        "someone is hurt",
+        "injury",
+        "unsafe",
+        "emergency",
+        "safety risk",
+        "electrical hazard",
+        "fire",
+        "people at risk"
+      ],
+      "languageCode": "en"
+    },
+    {
+      "value": "ongoing damage",
+      "synonyms": [
+        "ongoing damage",
+        "still running",
+        "getting worse",
+        "ongoing",
+        "spreading",
+        "damage",
+        "all day",
+        "continuous",
+        "still happening"
+      ],
+      "languageCode": "en"
+    },
+    {
+      "value": "no immediate risk",
+      "synonyms": [
+        "no immediate risk",
+        "no risk",
+        "not urgent",
+        "minor",
+        "no",
+        "nope",
+        "not dangerous",
+        "it's fine",
+        "low"
+      ],
+      "languageCode": "en"
+    }
+  ]
+}

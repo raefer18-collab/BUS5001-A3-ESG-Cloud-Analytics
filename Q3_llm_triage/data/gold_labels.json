@@ -1,0 +1,11 @@
+{
+  "_note": "Reference labels assigned by the analyst using the urgency rules in prompts/revised_prompt.txt. Primary issue only; M7 has a second issue (broken bike rack, FACILITIES_GENERAL, LOW).",
+  "M1": {"issue_category": "WATER", "urgency": "HIGH", "recommended_team": "Facilities Maintenance"},
+  "M2": {"issue_category": "WASTE_RECYCLING", "urgency": "MEDIUM", "recommended_team": "Waste & Recycling Services"},
+  "M3": {"issue_category": "ENERGY", "urgency": "MEDIUM", "recommended_team": "Energy & Sustainability Office"},
+  "M4": {"issue_category": "PROCUREMENT_SUPPLIER", "urgency": "MEDIUM", "recommended_team": "Sustainable Procurement"},
+  "M5": {"issue_category": "ACCESSIBILITY", "urgency": "HIGH", "recommended_team": "Accessibility & Inclusion Team"},
+  "M6": {"issue_category": "HAZARDOUS_MATERIALS", "urgency": "CRITICAL", "recommended_team": "Health, Safety & Environment (HSE)"},
+  "M7": {"issue_category": "FACILITIES_GENERAL", "urgency": "LOW", "recommended_team": "Facilities Maintenance"},
+  "M8": {"issue_category": "GOVERNANCE_CONDUCT", "urgency": "HIGH", "recommended_team": "People & Culture / Integrity (confidential)"}
+}

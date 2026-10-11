@@ -1,0 +1,80 @@
+{
+  "name": "39f4a482-1eb4-5154-a5dd-b6c914743b8e",
+  "displayName": "Confirm Report",
+  "entryFulfillment": {
+    "messages": [
+      {
+        "text": {
+          "text": [
+            "Here is a summary of your report:\n- Issue: $session.params.incident_type\n- Location: $session.params.location\n- Risk: $session.params.risk_level\n- Updates: $session.params.contact_pref\nShall I submit it? Please say yes or no."
+          ]
+        },
+        "languageCode": "en"
+      }
+    ]
+  },
+  "transitionRoutes": [
+    {
+      "name": "b2db03bd-f2fa-5a65-a48e-23c98b53779b",
+      "intent": "confirm.yes",
+      "targetPage": "Route To Team"
+    },
+    {
+      "name": "643b5e1a-9752-509d-b872-9397477734af",
+      "intent": "confirm.no",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "No problem, let's correct it."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ],
+        "setParameterActions": [
+          {
+            "parameter": "incident_type",
+            "value": null
+          },
+          {
+            "parameter": "location",
+            "value": null
+          },
+          {
+            "parameter": "risk_level",
+            "value": null
+          },
+          {
+            "parameter": "contact_pref",
+            "value": null
+          },
+          {
+            "parameter": "email",
+            "value": null
+          }
+        ]
+      },
+      "targetPage": "Incident Details"
+    }
+  ],
+  "eventHandlers": [
+    {
+      "name": "7d4639db-3b19-5440-ba43-fad2fb00f2a0",
+      "event": "sys.no-match-default",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Sorry, please say 'yes' to submit the report or 'no' to change it."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      }
+    }
+  ]
+}

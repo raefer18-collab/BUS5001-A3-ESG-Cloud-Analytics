@@ -1,0 +1,41 @@
+{
+  "name": "0a53ec40-5fd0-525c-bf35-1bbcbed0351b",
+  "displayName": "Human Handover",
+  "entryFulfillment": {
+    "messages": [
+      {
+        "text": {
+          "text": [
+            "I'll connect you with the ESG Service Desk. Sensitive matters such as safety, conduct or discrimination concerns are handled confidentially by a trained staff member."
+          ]
+        },
+        "languageCode": "en"
+      },
+      {
+        "text": {
+          "text": [
+            "The ESG Service Desk is available Monday to Friday, 8:30am-5pm, on extension 4500 or esg.servicedesk@example.org. I've shared a summary of this conversation with them."
+          ]
+        },
+        "languageCode": "en"
+      },
+      {
+        "liveAgentHandoff": {
+          "metadata": {
+            "reason": "user_requested_or_repeated_no_match",
+            "queue": "esg_service_desk"
+          }
+        },
+        "languageCode": "en"
+      }
+    ]
+  },
+  "transitionRoutes": [
+    {
+      "name": "3ac7cdad-c059-50b2-839c-b71ee88b8832",
+      "condition": "true",
+      "targetPage": "End Session"
+    }
+  ],
+  "eventHandlers": []
+}

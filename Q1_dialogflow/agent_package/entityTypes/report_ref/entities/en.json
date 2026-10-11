@@ -1,0 +1,11 @@
+{
+  "entities": [
+    {
+      "value": "ESG-?[A-Za-z0-9]{4,8}",
+      "synonyms": [
+        "ESG-?[A-Za-z0-9]{4,8}"
+      ],
+      "languageCode": "en"
+    }
+  ]
+}

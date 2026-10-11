@@ -1,0 +1,65 @@
+{
+  "name": "2c839889-62a7-5f39-99f6-b259b9f81879",
+  "displayName": "Check Report Status",
+  "form": {
+    "parameters": [
+      {
+        "displayName": "ref_number",
+        "entityType": "@report_ref",
+        "required": true,
+        "fillBehavior": {
+          "initialPromptFulfillment": {
+            "messages": [
+              {
+                "text": {
+                  "text": [
+                    "Sure. What is your report reference? It starts with ESG, for example ESG-4F2A9C."
+                  ]
+                },
+                "languageCode": "en"
+              }
+            ]
+          },
+          "repromptEventHandlers": [
+            {
+              "name": "d9241eeb-7430-59db-941a-d2350e758dd5",
+              "event": "sys.no-match-1",
+              "triggerFulfillment": {
+                "messages": [
+                  {
+                    "text": {
+                      "text": [
+                        "I couldn't find a reference in that. It looks like ESG followed by 4 to 8 letters or numbers."
+                      ]
+                    },
+                    "languageCode": "en"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "transitionRoutes": [
+    {
+      "name": "2ec7c76c-df82-58a8-a518-014e65a07213",
+      "condition": "$page.params.status = \"FINAL\"",
+      "triggerFulfillment": {
+        "messages": [
+          {
+            "text": {
+              "text": [
+                "Report $session.params.ref_number is currently IN PROGRESS with the assigned team. You'll receive an update when it is resolved."
+              ]
+            },
+            "languageCode": "en"
+          }
+        ]
+      },
+      "targetPage": "Anything Else"
+    }
+  ],
+  "eventHandlers": []
+}

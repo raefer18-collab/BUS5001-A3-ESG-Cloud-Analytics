@@ -1,0 +1,33 @@
+{
+  "entities": [
+    {
+      "value": "updates requested",
+      "synonyms": [
+        "updates requested",
+        "keep me updated",
+        "update me",
+        "contact me",
+        "email me",
+        "yes please",
+        "send me updates",
+        "notify me",
+        "yes"
+      ],
+      "languageCode": "en"
+    },
+    {
+      "value": "anonymous",
+      "synonyms": [
+        "anonymous",
+        "stay anonymous",
+        "don't contact me",
+        "no thanks",
+        "no updates",
+        "no contact",
+        "anonymously",
+        "no"
+      ],
+      "languageCode": "en"
+    }
+  ]
+}
