@@ -1,13 +1,14 @@
-# BUS5001 Assessment 3 – RPA, AI and Cloud-Enabled ESG Analytics
+﻿# BUS5001 Assessment 3 â€“ RPA, AI and Cloud-Enabled ESG Analytics
 
 Evidence repository for the Assessment 3 report (La Trobe University, BUS5001 Cloud Platforms).
 It contains the build artefacts and experiment logs referenced in the report.
 
 | Folder | Report section | Contents |
 |---|---|---|
-| [`Q1_dialogflow/`](Q1_dialogflow/) | Q1 – ESG chatbot | Source for the *EcoAssist ESG Incident Reporter* Dialogflow CX agent (`build_agent.py`), the generated JSON agent package, and test transcripts |
-| [`Q3_llm_triage/`](Q3_llm_triage/) | Q3 – LLM message triage | Original and revised prompts, test messages, gold labels, Gemini run log (`outputs/llm_runs.jsonl`), rule-based and Hugging Face zero-shot baselines, comparison tables and chart |
-| [`Q4_notebooklm/`](Q4_notebooklm/) | Q4 – NotebookLM evaluation | Experiment log of each NotebookLM (Gemini Notebook) feature test, the prompts used, observed outputs and the evaluation rubric scores |
+| [`Q1_dialogflow/`](Q1_dialogflow/) | Q1 â€“ ESG chatbot | Source for the *EcoAssist ESG Incident Reporter* Dialogflow CX agent (`build_agent.py`), the generated JSON agent package, and test transcripts |
+| [`Q3_llm_triage/`](Q3_llm_triage/) | Q3 â€“ LLM message triage | Original and revised prompts, test messages, gold labels, Gemini run log (`outputs/llm_runs.jsonl`), rule-based and Hugging Face zero-shot baselines, comparison tables and chart |
+| [`diagrams/`](diagrams/) | All | Report diagrams (conversation map, cloud workflow, attack chain, shared responsibility, Azure architecture) and the script that draws them |
+| [`Q4_notebooklm/`](Q4_notebooklm/) | Q4 â€“ NotebookLM evaluation | Experiment log of each NotebookLM (Gemini Notebook) feature test, the prompts used, observed outputs and the evaluation rubric scores |
 
 ## Reproducing the Q3 experiment
 
@@ -25,3 +26,4 @@ python Q3_llm_triage/compare.py        # accuracy table, consistency check, char
 * No API keys or credentials are stored in this repository.
 * Generative AI assistance was used in preparing parts of this work, as declared in the
   AI acknowledgement submitted with the report.
+
